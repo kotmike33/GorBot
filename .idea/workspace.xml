@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38f6e1b4-9336-4813-b545-31c4ea26e2f4" name="Changes" comment="2.0">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebParser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebParser/Parser.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2alwlnlOhTZnK0NjTdMemCodJm8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kotmi/Documents/GitHub/GorBot&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kotmi\Documents\GitHub\GorBot" />
+      <recent name="C:\Users\kotmi\Documents\GitHub\GorBot\src\main" />
+      <recent name="C:\Users\kotmi\Documents\GitHub\GorBot\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kotmi\Documents\GitHub\GorBot\src\main" />
+      <recent name="C:\Users\kotmi\Documents\GitHub\GorBot\src\main\java" />
+      <recent name="C:\Users\kotmi\Documents\GitHub\GorBot\src\main\java\Telegram" />
+      <recent name="C:\Users\kotmi\Documents\GitHub\GorBot" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyBot">
+    <configuration name="MyBot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Telegram.MyBot" />
+      <module name="GorBot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Telegram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashGenerator.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GorBot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebParser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebParser" />
+      <option name="MAIN_CLASS_NAME" value="WebParser.HashGenerator" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Parser.emptyXMLFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GorBot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebParser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebParser" />
+      <option name="MAIN_CLASS_NAME" value="WebParser.Parser" />
+      <option name="METHOD_NAME" value="emptyXMLFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Parser.testVoid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GorBot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebParser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebParser" />
+      <option name="MAIN_CLASS_NAME" value="WebParser.Parser" />
+      <option name="METHOD_NAME" value="testVoid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyBot" />
+        <item itemvalue="JUnit.HashGenerator.test" />
+        <item itemvalue="JUnit.Parser.emptyXMLFile" />
+        <item itemvalue="JUnit.Parser.testVoid" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38f6e1b4-9336-4813-b545-31c4ea26e2f4" name="Changes" comment="" />
+      <created>1704906626578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704906626578</updated>
+    </task>
+    <task id="LOCAL-00001" summary="2.0">
+      <option name="closed" value="true" />
+      <created>1705185324991</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705185324991</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.0" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/WebParser/LastPostedMessageTracker.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
