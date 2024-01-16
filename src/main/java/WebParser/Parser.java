@@ -153,29 +153,68 @@ public class Parser {
     }
     public static String addEmojisToHoroscope(String horoscopeText) {
         Map<String, String> zodiacEmojis = new HashMap<>();
-        zodiacEmojis.put("Овен", "\u2648 ");
-        zodiacEmojis.put("Телец", "\u2649 ");
-        zodiacEmojis.put("Близнецы", "\u264A ");
-        zodiacEmojis.put("Рак", "\u264B ");
-        zodiacEmojis.put("Лев", "\u264C ");
-        zodiacEmojis.put("Дева", "\u264D ");
-        zodiacEmojis.put("Весы", "\u264E ");
-        zodiacEmojis.put("Скорпион", "\u264F ");
-        zodiacEmojis.put("Стрелец", "\u2650 ");
-        zodiacEmojis.put("Козерог", "\u2651 ");
-        zodiacEmojis.put("Водолей", "\u2652 ");
-        zodiacEmojis.put("Рыбы", "\u2653 ");
+        zodiacEmojis.put("Овен", "\u2648");
+        zodiacEmojis.put("Телец", "\u2649");
+        zodiacEmojis.put("Близнецы", "\u264A");
+        zodiacEmojis.put("Рак", "\u264B");
+        zodiacEmojis.put("Лев", "\u264C");
+        zodiacEmojis.put("Дева", "\u264D");
+        zodiacEmojis.put("Весы", "\u264E");
+        zodiacEmojis.put("Скорпион", "\u264F");
+        zodiacEmojis.put("Стрелец", "\u2650");
+        zodiacEmojis.put("Козерог", "\u2651");
+        zodiacEmojis.put("Водолей", "\u2652");
+        zodiacEmojis.put("Рыбы", "\u2653");
 
+        Map<String, String> zodiacEmojis2 = new HashMap<>();
+        zodiacEmojis2.put("Овны", "\u2648");
+        zodiacEmojis2.put("Тельцы", "\u2649");
+        zodiacEmojis2.put("Близнецы", "\u264A");
+        zodiacEmojis2.put("Раки", "\u264B");
+        zodiacEmojis2.put("Львы", "\u264C");
+        zodiacEmojis2.put("Девы", "\u264D");
+        zodiacEmojis2.put("Весы", "\u264E");
+        zodiacEmojis2.put("Скорпионы", "\u264F");
+        zodiacEmojis2.put("Стрельцы", "\u2650");
+        zodiacEmojis2.put("Козероги", "\u2651");
+        zodiacEmojis2.put("Водолеи", "\u2652");
+        zodiacEmojis2.put("Рыбы", "\u2653");
+
+
+        boolean modified = false;
         for (Map.Entry<String, String> entry : zodiacEmojis.entrySet()) {
-            horoscopeText = horoscopeText.replaceAll(entry.getKey() + "(?![^\\s])", entry.getKey() + entry.getValue());
+            if(horoscopeText.contains(entry.getKey())) {
+                String[] words = horoscopeText.split("\\s+");
+                for (String word : words) {
+                    if (word.contains(entry.getKey())) {
+                        int wordEndIndex = horoscopeText.indexOf(word) + word.length();
+                        StringBuilder modifiedString = new StringBuilder(horoscopeText);
+                        horoscopeText = String.valueOf(modifiedString.insert(wordEndIndex, entry.getValue()));
+                        modified = true;
+                        break;
+                    }
+                }
+            }
         }
-
-        horoscopeText = horoscopeText.replaceAll("Лунное оповещение", "Лунное оповещение \uD83C\uDF1A\uD83C\uDF1A\uD83C\uDF1A");
+        if(!modified) {
+            for (Map.Entry<String, String> entry : zodiacEmojis2.entrySet()) {
+                if (horoscopeText.contains(entry.getKey())) {
+                    String[] words = horoscopeText.split("\\s+");
+                    for (String word : words) {
+                        if (word.contains(entry.getKey())) {
+                            int wordEndIndex = horoscopeText.indexOf(word) + word.length();
+                            StringBuilder modifiedString = new StringBuilder(horoscopeText);
+                            horoscopeText = String.valueOf(modifiedString.insert(wordEndIndex, entry.getValue()));
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        horoscopeText = horoscopeText.replaceAll("Лунное оповещение","Лунное оповещение \uD83C\uDF1A\uD83C\uDF1A\uD83C\uDF1A");
 
         return horoscopeText;
     }
-
-
     public void generateMessageFromXML(int index, boolean isAutomated) {
         ConfigurationManager configurationManager = new ConfigurationManager("config");
         MyBot bot = new MyBot();

@@ -1,0 +1,16 @@
+Telegram\ScheduledPostSender$ScheduledTask.class
+Telegram\MyBot$4.class
+WebParser\PostPage.class
+WebParser\Parser.class
+Telegram\MyBot$3.class
+Telegram\ScheduledPostSender.class
+Telegram\MyBot$1.class
+Config\ConfigurationManager.class
+Telegram\MyBot$2.class
+WebParser\PostFilter.class
+DEBUG\Debug.class
+WebParser\HashGenerator.class
+Telegram\MyBot.class
+Telegram\UpdateHandler.class
+WebParser\LastPostedMessageTracker.class
+Telegram\StatsReporter.class
